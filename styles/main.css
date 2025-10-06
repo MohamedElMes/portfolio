@@ -457,7 +457,7 @@ h3 {
     justify-content: space-between;
     align-items: center;
     padding: 2rem 3rem;
-    background-color: lightgreen;
+    background-color: var(--blanc);
     font-size: 1.2rem;
 
     box-shadow: -1px -1.5px 4px 0px rgba(0,0,0,0.75);
@@ -466,7 +466,7 @@ h3 {
 
 .navigation__gauche--lien {
     font-size: 1.3rem;
-    color: var(--blanc);
+    color: var(--noir);
     position: relative;
         
     transition: .3s;
@@ -474,7 +474,7 @@ h3 {
 
 .navigation__droite--lien {
     margin-right: 1.5rem;
-    color: var(--blanc);
+    color: var(--noir);
     position: relative; 
     
     transition: .3s;
@@ -617,4 +617,5 @@ h3 {
     display: inline-block;
     margin-top: 0.5rem;
     color: #2563eb;
+
   }
