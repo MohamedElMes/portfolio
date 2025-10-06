@@ -506,7 +506,7 @@ h3 {
     position: absolute;
     width: 0;
     height: .2rem;
-    background-color: var(--blanc);
+    background-color: var(--noir);
     left: 50%;
     bottom: -.3rem;
     transition: all .3s ease;
@@ -619,3 +619,4 @@ h3 {
     color: #2563eb;
 
   }
+
