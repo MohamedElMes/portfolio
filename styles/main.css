@@ -79,12 +79,12 @@ h3 {
     transition: .5s;
 }
 .retour_en_haut:hover,
-.retour_en_haut svg:hover {
+.retour_en_haut img:hover {
     transform: scale(1.04);
 
     transition: .5s;
 }
-.retour_en_haut svg {
+.retour_en_haut img {
     height: 2rem;
     width: 3rem;
 }
@@ -118,7 +118,8 @@ h3 {
     transition: .3s;
 }
 .conteneur__competences .competences .competence img {
-    height: 10rem;
+    height: 12rem;
+    width: 16rem;
 }
 .conteneur__competences .competences svg {
     height: 7rem;
@@ -291,6 +292,16 @@ h3 {
 .conteneur__veille p {
     font-size: 1.3rem;
     line-height: 2rem;
+}
+
+.veille-outils {
+    display: flex;
+    margin-top: 1rem;
+}
+.veille-outils img {
+    height: 3rem;
+    width: 3rem;
+    margin-right: 1rem;
 }
 
 /********** A PROPOS **********/
@@ -588,7 +599,14 @@ h3 {
     font-size: 1.2rem;
     color: var(--blanc);
 }
-
+.footer__gauche {
+    display: flex;
+}
+.footer__gauche svg {
+    width: 2rem;
+    height: 2rem;
+    margin-left: 1rem;
+}
 .card-container {
     display: grid;
     gap: 1.5rem;

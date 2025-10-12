@@ -9,6 +9,32 @@
     <link rel="stylesheet" href="styles/main.css">
 </head>
 <body>
+    <style>
+        .navigation__gauche--lien {
+            color: var(--blanc);
+        }
+        
+        .navigation__gauche--lien::after,
+        .navigation__droite--lien::after {
+            content: "";
+            position: absolute;
+            width: 0;
+            height: .2rem;
+            background-color: var(--blanc);
+            left: 50%;
+            bottom: -.3rem;
+            transition: all .3s ease;
+            transform: translateX(-50%);
+            border-radius: 10px;
+        }
+
+        .navigation__gauche--lien:hover::after,
+        .navigation__droite--lien:hover::after {
+            width: 100%;
+            transition: all .3s ease;
+        }
+    </style>
+
     <header class="en-tete">
         <nav class="navigation--index">
             <div class="navigation__gauche">
